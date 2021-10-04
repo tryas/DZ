@@ -3,7 +3,6 @@
 # наибольших двух аргументов.
 
 def my_func(a1, a2, a3):
-        minimum = min(a1,a2,a3)
         sum = a1 + a2 + a3 - min(a1, a2, a3)
         return(sum)
 
