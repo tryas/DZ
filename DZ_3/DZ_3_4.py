@@ -7,4 +7,17 @@
 # Второй — более сложная реализация без оператора **,
 # предусматривающая использование цикла.
 
-def stepen(x,7)
+def my_func(x, y):
+    result = x ** y
+    return(result)
+
+def my_func_2(x, y):
+    while y :
+        x = x * x
+        y = y + 2
+    return(1 / x)
+
+z = my_func(8, -2)
+print(z)
+z2 = my_func_2(8, -2)
+print(z2)
