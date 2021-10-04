@@ -3,8 +3,8 @@
 # наибольших двух аргументов.
 
 def my_func(a1, a2, a3):
-        maximum = min(a1,a2,a3)
-        sum = a1 + a2 + a3 - maximum
+        minimum = min(a1,a2,a3)
+        sum = a1 + a2 + a3 - minimum
         return(sum)
 
 sum = my_func(10, 20, 40)
