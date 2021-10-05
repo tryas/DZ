@@ -9,3 +9,4 @@ def int_func(new_string):
 
 new_string = input('Введите строку слов из латинских букв в нижнем регистре :')
 print('Обработанная строка: ', int_func(new_string))
+
