@@ -7,3 +7,21 @@
 # выполнение программы завершается. Если специальный символ введён
 # после нескольких чисел, то вначале нужно добавить сумму этих чисел
 # к полученной ранее сумме и после этого завершить программу.
+
+new_string = input('Введите строку чисел, разделенных пробелом :')
+new_list = new_string.split()
+length_new_list = len(new_list)
+sum = 0
+for el in new_list:
+    el = int(el)
+    sum = sum + el
+print('Сумма : ', sum)
+new_element = 0
+while new_element != 's':
+    new_element = input()
+    if new_element != 's':
+        sum = sum + int(new_element)
+        print(sum)
+    else:
+        new_element = 's'
+print('Финальная сумма = ', sum)
