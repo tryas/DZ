@@ -4,5 +4,5 @@
 # Результат: [12, 44, 4, 10, 78, 123].
 
 first_list = [2, 34, 4, 32, 43, 12, 123, 1, 33, 12 ,8, 66, 13]
-new_list = [el for el in first_list if el >
+new_list = [first_list[el] for el in range(1, len(first_list)) if first_list[el] > first_list[el-1]]
 print(new_list)
