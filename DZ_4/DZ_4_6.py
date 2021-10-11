@@ -17,5 +17,4 @@ for i in count(3,1):
     if i >= 20:
         break
 new_list = [1, 3, 5, 7, 11, 13, 17, 23]
-for i in cycle(new_list):
-    print(i)
+print(cycle(new_list))
