@@ -1,0 +1,4 @@
+Literatura 4(lecture) 5(praktika) 0(lab)
+Fizkultura 1(lecture) 6(praktika) 0(lab)
+Fizika 5(lecture) 5(praktika) 4(lab)
+Penie 0(lecture) 3(praktika) 0(lab)
