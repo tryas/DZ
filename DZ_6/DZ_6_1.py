@@ -8,6 +8,7 @@
 # Проверить работу примера, создав экземпляр и вызвав описанный метод.
 
 
+
 from time import sleep
 class TrafficLight:
     timing_red = 7

@@ -6,6 +6,7 @@
 #  Проверить работу метода.
 
 
+
 class Road:
     def __init__(self):
         massa_one_meter = 15
