@@ -1,0 +1,5 @@
+Kryakin 20000
+Shmyakin 10000
+Vodkin 30000
+Sklochnyj 40000
+Chrapovatyj 15000
