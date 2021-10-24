@@ -9,6 +9,7 @@
 # реализовать абстрактные классы для основных классов проекта, проверить на практике работу декоратора @property.
 
 
+
 from abc import ABC, abstractmethod
 
 class Odejda(ABC):

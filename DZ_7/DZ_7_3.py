@@ -24,6 +24,7 @@
 # Подсказка: подробный список операторов для перегрузки доступен по ссылке.
 
 
+
 class Kletka:
     def __init__(self, kol_kletok):
         self.kol_kletok = kol_kletok
