@@ -5,6 +5,7 @@
 # реализовать параметры, уникальные для каждого типа оргтехники.
 
 
+
 class Store:
     def __init__(self, items = None):
         if not items:
