@@ -7,6 +7,8 @@
 # При значении скорости свыше 60 (TownCar) и 40 (WorkCar) должно выводиться сообщение
 # о превышении скорости.
 
+
+
 class Car:
     def __init__(self, speed, color, name, is_police):
         self.speed = speed
